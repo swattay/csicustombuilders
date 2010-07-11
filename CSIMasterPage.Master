@@ -1,0 +1,67 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="CSIMasterPage.master.vb" Inherits="CSICustomBuilderWeb2.CSIMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>CSI Custom Builders</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="MainBody" runat="server">
+    <form id="form1" runat="server">
+    <table width="700" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr>
+    <td width="100">&nbsp;</td>
+    <td width="140" bgcolor="#FF0000">&nbsp;</td>
+    <td >&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100" bgcolor="#AEAEAE">&nbsp;</td>
+    <td width="140" bgcolor="#FFFFFF"><img src="webpics/csi1.jpg" alt="CSI Logo" width="140" height="127" /></td>
+    <td bgcolor="#AEAEAE"><table width="100%">
+      <tr>
+        <td><img src="webpics/CSILogo2.jpg" alt="Building a brighter future, now and tomorrow!" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="100">&nbsp;</td>
+    <td width="140" align="left" valign="top" bgcolor="#FF0000">
+	<table cellpadding="2"><!--DWLayoutTable-->
+	  <tr><td>
+		<ul class="ulmenu" type="square">
+			<li><a href="default.aspx" class="menu">Home</a></li>
+			<li><a href="modular.aspx" class="menu">Modular Info</a></li>
+			<li><a href="http://www.nationwide-homes.com/Cut_Indx.html" target="_blank" class="menu">Floor Plans</a></li>
+			<li><a href="http://www.nationwide-homes.com/main.cfm?pagename=news" target="_blank" class="menu">What's New</a></li>
+			<li><a href="feedback.aspx" class="menu">Feedback</a></li>
+			<li><a href="contact.aspx" class="menu">Contact Us</a></li>
+		</ul>
+	    </td></tr>
+	</table>
+	</td>
+    <td rowspan="2" height="400" >
+	    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:contentplaceholder>
+    </div></td>
+  </tr>
+  <tr>
+	<td height="120px">	
+	</td>
+	<td height="120px" align ="center" valign="bottom" bgcolor="#FF0000">
+		<a href="http://www.nationwide-homes.com/" target="_blank"><img src="webpics/nationwide_logo2.jpg" width="130" height="120" border="0" alt="Nationwide Homes Authorized Builder" /></a>
+	</td>
+  </tr>
+  <tr>
+  	<td></td>
+	<td><div align="center"><small>You are visitor:</small><br /><a href="http://www.amazingcounters.com" target="_top"><img border="0" src="http://www.amazingcounters.com/counter.php?i=61653&c=185272" alt="free web counters" /></a><br /><small><a href="http://www.allonlinecoupons.com/st/batteries-com/" target="_top"><font color="#FFFFFF">Batteries.com</font></a></small></div></td>
+	<td align="center"><font size="1" face="Arial, Helvetica">CSI Custom Builders LLC - 458 Radio Station Road - Strasburg, VA  22657<br />Phone:(540) 869-5991 - Fax:(540) 869-2056<br />Copyright © 2008 Westwood Systems, LC.  All rights reserved.<br /><a href="mailto:webmaster@csicustombuilders.com">webmaster@csicustombuilders.com</a></font></td>
+  </tr>
+</table>
+
+    </form>
+</body>
+</html>
